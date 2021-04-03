@@ -1,0 +1,18 @@
+mat-grid-list mat-grid-tile {
+  background: orange;
+}
+
+mat-grid-list mat-grid-tile img{
+  transition: all 1s ease;
+}
+
+mat-grid-list mat-grid-tile img:hover{
+  transform:scale(1.25);
+  opacity: 50%;
+}
+
+mat-grid-list mat-grid-tile a{
+  font-size: 25px;
+  position: absolute;
+  color: #FFFFFF;
+}
