@@ -1,3 +1,15 @@
 <mat-toolbar>
-  <span>Mon portfolio</span>
+  <a routerLink="" id="Home">Mon portfolio</a>
+  <a routerLink="/parcours">Mon parcours</a>
+  <a routerLink="/dev">Développement</a>
+  <a routerLink="/musique">Musique</a>
+  <div>
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="">Mon portfolio</button>
+      <button mat-menu-item routerLink="/parcours">Mon parcours</button>
+      <button mat-menu-item routerLink="/dev">Développement</button>
+      <button mat-menu-item routerLink="/musique">Musique</button>
+    </mat-menu>
+  </div>
 </mat-toolbar>

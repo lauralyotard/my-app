@@ -1,8 +1,17 @@
-<mat-grid-list cols="3" rowHeight="2:1">
-  <mat-grid-tile><img src="assets/images/jeux.jpeg" width="100%" alt="jeux"><a [routerLink]="['/jeux']">JEUX</a></mat-grid-tile>
+<mat-grid-list id="Desktop" cols="3" rowHeight="1:1">
+  <mat-grid-tile><img src="assets/images/jeux.jpeg" width="100%" alt="Mon parcours"><a [routerLink]="['/parcours']">JEUX</a></mat-grid-tile>
   <mat-grid-tile><img src="assets/images/jetbrain.png" width="80%" alt="jeux"><a [routerLink]="['/dev']">DEVELOPPEMENT</a></mat-grid-tile>
   <mat-grid-tile><img src="assets/images/guitare.jpg" width="100%" alt="jeux"><a [routerLink]="['/musique']">MUSIQUE</a></mat-grid-tile>
   <mat-grid-tile>4</mat-grid-tile>
   <mat-grid-tile>5</mat-grid-tile>
   <mat-grid-tile>6</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list id="Mobile" cols="1" rowHeight="4:1">
+  <mat-grid-tile id="red" [routerLink]="['/parcours']">JEUX</mat-grid-tile>
+  <mat-grid-tile id="orange" [routerLink]="['/dev']">DEVELOPPEMENT</mat-grid-tile>
+  <mat-grid-tile id="yellow" [routerLink]="['/musique']">MUSIQUE</mat-grid-tile>
+  <mat-grid-tile id="green">4</mat-grid-tile>
+  <mat-grid-tile id="blue">5</mat-grid-tile>
+  <mat-grid-tile id="purple">6</mat-grid-tile>
 </mat-grid-list>

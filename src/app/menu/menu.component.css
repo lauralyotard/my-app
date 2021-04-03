@@ -1,0 +1,28 @@
+@media (min-width: 800px) {
+  mat-toolbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 20px;
+    transition: all 0.5s ease;
+  }
+
+  mat-toolbar #Home {
+    padding-left: 0!important;
+    color: #ff9360;
+    font-size: 30px;
+  }
+
+  mat-toolbar a:hover {
+    color: #ff9360;
+  }
+
+  mat-toolbar div {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  a {
+    display: none;
+  }
+}
