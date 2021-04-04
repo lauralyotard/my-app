@@ -1,17 +1,17 @@
 <mat-grid-list id="Desktop" cols="3" rowHeight="1:1">
-  <mat-grid-tile><img src="assets/images/jeux.jpeg" width="100%" alt="Mon parcours"><a [routerLink]="['/parcours']">JEUX</a></mat-grid-tile>
-  <mat-grid-tile><img src="assets/images/jetbrain.png" width="80%" alt="jeux"><a [routerLink]="['/dev']">DEVELOPPEMENT</a></mat-grid-tile>
-  <mat-grid-tile><img src="assets/images/guitare.jpg" width="100%" alt="jeux"><a [routerLink]="['/musique']">MUSIQUE</a></mat-grid-tile>
-  <mat-grid-tile>4</mat-grid-tile>
-  <mat-grid-tile>5</mat-grid-tile>
-  <mat-grid-tile>6</mat-grid-tile>
+  <mat-grid-tile><a [routerLink]="['/parcours']"><mat-icon>school</mat-icon> Mon parcours</a></mat-grid-tile>
+  <mat-grid-tile><a [routerLink]="['/passions']"><mat-icon>favorite</mat-icon> Mes passions</a></mat-grid-tile>
+  <mat-grid-tile><a [routerLink]="['/atouts-et-competences']"><mat-icon>star</mat-icon> Atouts et compétences</a></mat-grid-tile>
+  <mat-grid-tile><a [routerLink]="['/4']">Mon developpement</a></mat-grid-tile>
+  <mat-grid-tile><a [routerLink]="['/5']">Mon projet</a></mat-grid-tile>
+  <mat-grid-tile><a [routerLink]="['/6']">Mon cursus</a></mat-grid-tile>
 </mat-grid-list>
 
 <mat-grid-list id="Mobile" cols="1" rowHeight="4:1">
-  <mat-grid-tile id="red" [routerLink]="['/parcours']">JEUX</mat-grid-tile>
-  <mat-grid-tile id="orange" [routerLink]="['/dev']">DEVELOPPEMENT</mat-grid-tile>
-  <mat-grid-tile id="yellow" [routerLink]="['/musique']">MUSIQUE</mat-grid-tile>
-  <mat-grid-tile id="green">4</mat-grid-tile>
-  <mat-grid-tile id="blue">5</mat-grid-tile>
-  <mat-grid-tile id="purple">6</mat-grid-tile>
+  <mat-grid-tile [routerLink]="['/parcours']"><mat-icon id="learn">school</mat-icon> Mon parcours</mat-grid-tile>
+  <mat-grid-tile [routerLink]="['/passions']"><mat-icon id="favorite">favorite</mat-icon> Mes passions</mat-grid-tile>
+  <mat-grid-tile [routerLink]="['/atouts-et-competences']"><mat-icon id="star">star</mat-icon> Atouts et compétences</mat-grid-tile>
+  <mat-grid-tile [routerLink]="['/4']">4</mat-grid-tile>
+  <mat-grid-tile [routerLink]="['/5']">5</mat-grid-tile>
+  <mat-grid-tile [routerLink]="['/6']">6</mat-grid-tile>
 </mat-grid-list>

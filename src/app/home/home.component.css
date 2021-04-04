@@ -3,28 +3,23 @@
     background: #333333;
   }
 
-  #Desktop mat-grid-tile img{
+  #Desktop mat-grid-tile:hover {
     transition: all 1s ease;
-  }
-
-  #Desktop mat-grid-tile img:hover{
-    transform:scale(1.25);
-    opacity: 50%;
+    background: #FF9360;
   }
 
   #Desktop mat-grid-tile a{
-    padding: 10px;
+    padding: 100%;
     text-decoration: none;
     font-size: 25px;
     position: absolute;
     color: #FFFFFF;
-    border-radius: 10px;
-    background: #333333;
     transition: all 0.5s ease;
   }
 
   #Desktop mat-grid-tile a:hover{
-    background: #FF9360;
+    font-size: 28px;
+
   }
 
   #Mobile {
@@ -40,34 +35,28 @@
   #Mobile mat-grid-tile {
     text-align: center;
     text-decoration: none;
-    color: #FFFFFF;
-    border-radius: 5px;
+    color: #333333;
+    font-size: 25px;
     background: #FF9360;
   }
 
-  #Mobile #red {
-    background: #ff3f3f;
+  #Mobile mat-grid-tile mat-icon {
+    padding-right: 5px;
   }
 
-  #Mobile #orange {
-    background: #ff953f;
+  #Mobile mat-grid-tile #learn {
+    color: #494949;
   }
 
-  #Mobile #yellow {
-    background: #ffd23f;
+  #Mobile mat-grid-tile #favorite {
+    color: #ff3a3a;
   }
 
-  #Mobile #green {
-    background: #53b700;
+  #Mobile mat-grid-tile #star {
+    color: #ffd252;
   }
 
-  #Mobile #blue {
-    background: #3fb2ff;
+  #Mobile mat-grid-tile:active {
+    background: #333333;
   }
-
-  #Mobile #purple {
-    background: #6c32ff;
-  }
-
-
 }

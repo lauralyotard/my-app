@@ -1,15 +1,16 @@
 <mat-toolbar>
-  <a routerLink="" id="Home">Mon portfolio</a>
+  <img src="assets/images/logo_small_icon_only.png" alt="Logo Laura Lyotard">
+  <a routerLink="" id="home">Mon portfolio</a>
   <a routerLink="/parcours">Mon parcours</a>
-  <a routerLink="/dev">Développement</a>
-  <a routerLink="/musique">Musique</a>
+  <a routerLink="/passions">Mes passions</a>
+  <a routerLink="/atouts-et-competences">Atouts et compétences</a>
   <div>
-    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <button mat-menu-item routerLink="" id="homeMobile">Mon Portfolio</button>
+    <button mat-button [matMenuTriggerFor]="menu"><mat-icon>more_vert</mat-icon></button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item routerLink="">Mon portfolio</button>
       <button mat-menu-item routerLink="/parcours">Mon parcours</button>
-      <button mat-menu-item routerLink="/dev">Développement</button>
-      <button mat-menu-item routerLink="/musique">Musique</button>
+      <button mat-menu-item routerLink="/passions">Mes passions</button>
+      <button mat-menu-item routerLink="/atouts-et-competences">Atouts et compétences</button>
     </mat-menu>
   </div>
 </mat-toolbar>

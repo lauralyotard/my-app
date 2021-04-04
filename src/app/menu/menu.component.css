@@ -6,7 +6,7 @@
     transition: all 0.5s ease;
   }
 
-  mat-toolbar #Home {
+  mat-toolbar #home {
     padding-left: 0!important;
     color: #ff9360;
     font-size: 30px;
@@ -19,10 +19,32 @@
   mat-toolbar div {
     display: none;
   }
+
+  mat-toolbar img {
+    height: 70%;
+    padding-right: 5px;
+  }
 }
 
 @media (max-width: 800px) {
   a {
     display: none;
+  }
+
+  #homeMobile {
+    color: #FF9360;
+    font-size: 30px;
+    font-variant: petite-caps;
+  }
+
+  mat-toolbar div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  mat-toolbar img {
+    height: 70%;
   }
 }

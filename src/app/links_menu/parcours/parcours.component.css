@@ -1,0 +1,118 @@
+div {
+  color: #FFFFFF;
+  background: #333333;
+}
+
+.title {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+.titleSecond {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+#school {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#school div {
+  border-top: 1px solid #FF9360;
+  padding-bottom: 10px;
+}
+
+#school p{
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#pro {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#pro div {
+  border-top: 1px solid #FF9360;
+  padding-bottom: 10px;
+}
+
+#pro p{
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.year {
+  color: #FF9360;
+  font-style: italic;
+}
+
+.url a{
+  text-decoration: none;
+  color: #FF9360;
+}
+
+.url a:hover{
+  color: #FFFFFF;
+}
+
+@media (min-width: 800px) {
+  div mat-grid-list mat-grid-tile div {
+    position: absolute;
+    background: #333333;
+    color: #FFFFFF;
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #FF9360;
+  }
+
+  .title {
+    color: #FF9360;
+  }
+
+  div mat-grid-list mat-grid-tile div h2 {
+    color: #FF9360;
+  }
+
+  #mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  div mat-grid-list mat-grid-tile span {
+    position: absolute;
+    padding: 30px;
+    font-size: 30px;
+    background: #333333;
+    border: 1px solid #FF9360;
+    border-radius: 10px;
+  }
+
+  div mat-grid-list mat-grid-tile #message {
+    display: none;
+  }
+
+  .title {
+    text-align: center;
+    background: #FF9360;
+    font-size: 25px;
+  }
+
+  #mobile {
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #mobile h2{
+    color: #FF9360;
+  }
+}
