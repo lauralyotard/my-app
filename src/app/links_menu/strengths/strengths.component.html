@@ -1,0 +1,53 @@
+<div class="title">
+  <span>Cliquez pour dévoiler...</span>
+</div>
+<ng-container>
+  <div *ngIf="!langue"  (click)="vrailangue()" class="case false">
+    <p>Les langues ?</p>
+  </div>
+  <div *ngIf="langue" (click)="fauxlangue()" class="case true">
+    <ul>
+      <li>Français courant</li>
+      <li>Anglais confirmé</li>
+      <li>Italien débutant</li>
+    </ul>
+  </div>
+  <div *ngIf="!atouts" (click)="vraiatouts()" class="case false">
+    <p>Mes atouts ?</p>
+  </div>
+  <div *ngIf="atouts" (click)="fauxatouts()" class="case true">
+    <ul>
+      <li>Patiente</li>
+      <li>Autonome</li>
+      <li>Rigoureuse</li>
+      <li>Organisée</li>
+    </ul>
+  </div>
+  <div *ngIf="!skills" (click)="vraiskills()" class="case false">
+    <p>Mes compétences ?</p>
+  </div>
+  <div *ngIf="skills" (click)="fauxskills()" class="caseXL true">
+    <ol>
+      <li class="titleSecond">Frameworks</li>
+      <ul>
+        <li>Angular</li>
+        <li>Symfony</li>
+      </ul>
+      <li class="titleSecond">Logiciels</li>
+      <ul>
+        <li>Android Studio</li>
+        <li>Photoshop</li>
+      </ul>
+      <li class="titleSecond">Langages informatique</li>
+      <ul>
+        <li>HTML/CSS/SCSS</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>SQL</li>
+        <li>C#</li>
+        <li>Python</li>
+      </ul>
+    </ol>
+  </div>
+</ng-container>
