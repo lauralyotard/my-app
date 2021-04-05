@@ -8,6 +8,11 @@
     background: #FF9360;
   }
 
+  #Desktop .green:hover {
+    transition: all 1s ease;
+    background: #8cc043;
+  }
+
   #Desktop mat-grid-tile a{
     padding: 100%;
     text-decoration: none;
@@ -57,6 +62,7 @@
   }
 
   #Mobile mat-grid-tile:active {
-    background: #333333;
+    background: #8cc043;
+    color: #333333;
   }
 }

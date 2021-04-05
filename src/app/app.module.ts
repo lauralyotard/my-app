@@ -18,6 +18,9 @@ import { HomeComponent } from './home/home.component';
 import {A11yModule} from '@angular/cdk/a11y';
 import { PassionsComponent } from './links_menu/passions/passions.component';
 import { StrengthsComponent } from './links_menu/strengths/strengths.component';
+import { ConfidentialiteComponent } from './links_infos/confidentialite/confidentialite.component';
+import { CguComponent } from './links_infos/cgu/cgu.component';
+import { MaintenanceComponent } from './links_infos/maintenance/maintenance.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { StrengthsComponent } from './links_menu/strengths/strengths.component';
     ParcoursComponent,
     HomeComponent,
     PassionsComponent,
-    StrengthsComponent
+    StrengthsComponent,
+    ConfidentialiteComponent,
+    CguComponent,
+    MaintenanceComponent
   ],
   imports: [
     BrowserModule,
