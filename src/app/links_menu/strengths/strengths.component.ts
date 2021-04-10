@@ -15,45 +15,27 @@ export class StrengthsComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  public fauxlangue(): boolean{
-    if (this.langue) {
-      this.langue = false;
-    }
-    return this.langue;
+  moreL(): boolean {
+    return this.langue = true;
   }
 
-  public vrailangue(): boolean{
-    if (!this.langue) {
-      this.langue = true;
-    }
-    return this.langue;
+  lessL(): boolean {
+    return this.langue = false;
   }
 
-  public fauxatouts(): boolean{
-    if (this.atouts) {
-      this.atouts = false;
-    }
-    return this.atouts;
+  moreA(): boolean {
+    return this.atouts = true;
   }
 
-  public vraiatouts(): boolean{
-    if (!this.atouts) {
-      this.atouts = true;
-    }
-    return this.atouts;
+  lessA(): boolean {
+    return this.atouts = false;
   }
 
-  public fauxskills(): boolean{
-    if (this.skills) {
-      this.skills = false;
-    }
-    return this.skills;
+  moreS(): boolean {
+    return this.skills = true;
   }
 
-  public vraiskills(): boolean{
-    if (!this.skills) {
-      this.skills = true;
-    }
-    return this.skills;
+  lessS(): boolean {
+    return this.skills = false;
   }
 }

@@ -21,6 +21,7 @@ import { StrengthsComponent } from './links_menu/strengths/strengths.component';
 import { ConfidentialiteComponent } from './links_infos/confidentialite/confidentialite.component';
 import { CguComponent } from './links_infos/cgu/cgu.component';
 import { MaintenanceComponent } from './links_infos/maintenance/maintenance.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { MaintenanceComponent } from './links_infos/maintenance/maintenance.comp
     StrengthsComponent,
     ConfidentialiteComponent,
     CguComponent,
-    MaintenanceComponent
+    MaintenanceComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,
