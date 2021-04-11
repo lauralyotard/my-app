@@ -22,6 +22,7 @@ import { ConfidentialiteComponent } from './links_infos/confidentialite/confiden
 import { CguComponent } from './links_infos/cgu/cgu.component';
 import { MaintenanceComponent } from './links_infos/maintenance/maintenance.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
+import { WhoIAmComponent } from './who-i-am/who-i-am.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     ConfidentialiteComponent,
     CguComponent,
     MaintenanceComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
+    WhoIAmComponent
   ],
   imports: [
     BrowserModule,

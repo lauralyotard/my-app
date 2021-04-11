@@ -7,6 +7,7 @@ import {StrengthsComponent} from './links_menu/strengths/strengths.component';
 import {ConfidentialiteComponent} from './links_infos/confidentialite/confidentialite.component';
 import {CguComponent} from './links_infos/cgu/cgu.component';
 import {MaintenanceComponent} from './links_infos/maintenance/maintenance.component';
+import {WhoIAmComponent} from './who-i-am/who-i-am.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'atouts-et-competences', component: StrengthsComponent },
   { path: 'politique-de-confidentalite', component: ConfidentialiteComponent },
   { path: 'conditions-generales-d-utilisation', component: CguComponent },
-  { path: 'mises-a-jour', component: MaintenanceComponent }
+  { path: 'mises-a-jour', component: MaintenanceComponent },
+  { path: 'qui-suis-je', component: WhoIAmComponent }
 ];
 
 @NgModule({

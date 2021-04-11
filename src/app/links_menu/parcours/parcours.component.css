@@ -61,7 +61,7 @@ div {
   color: #FF9360;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 801px) {
   div mat-grid-list mat-grid-tile div {
     position: absolute;
     background: #333333;

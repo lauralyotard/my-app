@@ -10,6 +10,8 @@ export class MaintenanceComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('« Ohana » signifie « famille ». Famille signifie que personne ne doit être abandonné, ni oublié.');
+    console.log('Lilo & Stitch');
   }
 
 }

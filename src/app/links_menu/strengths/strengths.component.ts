@@ -13,7 +13,10 @@ export class StrengthsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log('Les choses que l’on possède finissent par nous posséder.');
+    console.log('Brad Pitt dans Fight Club');
+  }
 
   moreL(): boolean {
     return this.langue = true;

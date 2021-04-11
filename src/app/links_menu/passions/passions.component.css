@@ -33,7 +33,17 @@ div {
   color: #FF9360;
 }
 
-@media (min-width: 800px) {
+#infosinsta {
+  display: flex;
+}
+
+#social img {
+  margin-left: 4px;
+  height: 20px!important;
+  width: 20px;
+}
+
+@media (min-width: 801px) {
   .title {
     color: #FF9360;
   }

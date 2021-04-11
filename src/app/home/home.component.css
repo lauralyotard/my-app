@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 801px) {
   #Desktop mat-grid-tile {
     background: #333333;
   }
@@ -24,7 +24,6 @@
 
   #Desktop mat-grid-tile a:hover{
     font-size: 28px;
-
   }
 
   #Mobile {
