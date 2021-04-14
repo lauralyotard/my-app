@@ -60,6 +60,10 @@
     color: #ffd252;
   }
 
+  #Mobile mat-grid-tile #create {
+    color: #e502a4;
+  }
+
   #Mobile mat-grid-tile:active {
     background: #8cc043;
     color: #333333;

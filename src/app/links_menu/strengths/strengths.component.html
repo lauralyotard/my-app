@@ -1,125 +1,37 @@
 <div class="title">
   <span>Mes forces</span>
 </div>
-<div id="Desktop">
-  <mat-grid-list cols="1" rowHeight="6:1">
-    <mat-grid-tile class="green">
-      <p>Les langues ?</p>
-      <div class="expand">
-        <div>
-          <button mat-button *ngIf="!langue" (click)="moreL()"><mat-icon>chevron_right</mat-icon></button>
-          <button mat-button *ngIf="langue" (click)="lessL()"><mat-icon>chevron_left</mat-icon></button>
-        </div>
-        <div>
-          <ul *ngIf="langue">
-            <li>Français courant</li>
-            <li>Anglais confirmé</li>
-            <li>Italien débutant</li>
-          </ul>
-        </div>
-      </div>
-    </mat-grid-tile>
-    <mat-grid-tile class="green">
-      <p>Mes atouts ?</p>
-      <div class="expand">
-        <div>
-          <button mat-button *ngIf="!atouts" (click)="moreA()"><mat-icon>chevron_right</mat-icon></button>
-          <button mat-button *ngIf="atouts" (click)="lessA()"><mat-icon>chevron_left</mat-icon></button>
-        </div>
-        <div>
-          <ul *ngIf="atouts">
-            <li>Patiente</li>
-            <li>Autonome</li>
-            <li>Rigoureuse</li>
-            <li>Organisée</li>
-          </ul>
-        </div>
-      </div>
-    </mat-grid-tile>
-    <mat-grid-tile class="green">
-      <p>Informatique ?</p>
-      <div class="expand">
-        <div>
-          <button mat-button *ngIf="!skills" (click)="moreS()"><mat-icon>chevron_right</mat-icon></button>
-          <button mat-button *ngIf="skills" (click)="lessS()"><mat-icon>chevron_left</mat-icon></button>
-        </div>
-        <div id="online">
-          <div>
-            <ul *ngIf="skills">
-              <li>HTML/CSS/SCSS</li>
-              <li>JavaScript/TypeScript</li>
-              <li>PHP</li>
-              <li>SQL</li>
-              <li>C#</li>
-            </ul>
-          </div>
-          <div>
-            <ul *ngIf="skills">
-              <li>Python</li>
-              <li>Angular</li>
-              <li>Symfony</li>
-              <li>Android Studio</li>
-              <li>Photoshop</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </mat-grid-tile>
-  </mat-grid-list>
-</div>
-<div id="Mobile">
-  <mat-grid-list cols="1" rowHeight="3:1">
-    <mat-grid-tile class="green">
-      <p>Les langues ?</p>
-      <div class="expand">
-        <div>
-          <button mat-button *ngIf="!langue" (click)="moreL()"><mat-icon>chevron_right</mat-icon></button>
-          <button mat-button *ngIf="langue" (click)="lessL()"><mat-icon>chevron_left</mat-icon></button>
-        </div>
-        <div>
-          <ul *ngIf="langue">
-            <li>Français courant</li>
-            <li>Anglais confirmé</li>
-            <li>Italien débutant</li>
-          </ul>
-        </div>
-      </div>
-    </mat-grid-tile>
-    <mat-grid-tile class="green">
-      <p>Mes atouts ?</p>
-      <div class="expand">
-        <div>
-          <button mat-button *ngIf="!atouts" (click)="moreA()"><mat-icon>chevron_right</mat-icon></button>
-          <button mat-button *ngIf="atouts" (click)="lessA()"><mat-icon>chevron_left</mat-icon></button>
-        </div>
-        <div>
-          <ul *ngIf="atouts">
-            <li>Patiente</li>
-            <li>Autonome</li>
-            <li>Rigoureuse</li>
-            <li>Organisée</li>
-          </ul>
-        </div>
-      </div>
-    </mat-grid-tile>
-    <mat-grid-tile class="green">
-      <p>Informatique ?</p>
-      <div class="expand">
-        <div>
-          <button mat-button *ngIf="!skills" (click)="moreS()"><mat-icon>chevron_right</mat-icon></button>
-          <button mat-button *ngIf="skills" (click)="lessS()"><mat-icon>chevron_left</mat-icon></button>
-        </div>
-        <div>
-          <div *ngIf="skills">
-            <ul id="skills">
-              <li>HTML/SCSS, JavaScript</li>
-              <li>SQL, C#, Angular,</li>
-              <li>Symfony, Android Studio</li>
-              <li>Photoshop et plus</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </mat-grid-tile>
-  </mat-grid-list>
+<div id="responsive">
+  <div class="text">
+    <h2>Compétences</h2>
+    <ul>
+      <li>HTML/CSS/SCSS</li>
+      <li>JavaScript/TypeScript</li>
+      <li>PHP</li>
+      <li>SQL</li>
+      <li>C#</li>
+      <li>Python</li>
+      <li>Angular</li>
+      <li>Symfony</li>
+      <li>Android Studio</li>
+      <li>Photoshop</li>
+    </ul>
+  </div>
+  <div class="text">
+    <h2>Atouts</h2>
+    <ul>
+      <li>Patiente</li>
+      <li>Autonome</li>
+      <li>Rigoureuse</li>
+      <li>Organisée</li>
+    </ul>
+  </div>
+  <div class="text">
+    <h2>Langues</h2>
+    <ul>
+      <li>Français courant</li>
+      <li>Anglais confirmé</li>
+      <li>Italien débutant</li>
+    </ul>
+  </div>
 </div>

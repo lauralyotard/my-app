@@ -22,7 +22,8 @@ import { ConfidentialiteComponent } from './links_infos/confidentialite/confiden
 import { CguComponent } from './links_infos/cgu/cgu.component';
 import { MaintenanceComponent } from './links_infos/maintenance/maintenance.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
-import { WhoIAmComponent } from './who-i-am/who-i-am.component';
+import { WhoIAmComponent } from './links_menu/who-i-am/who-i-am.component';
+import { BigfiitComponent } from './links_menu/bigfiit/bigfiit.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { WhoIAmComponent } from './who-i-am/who-i-am.component';
     CguComponent,
     MaintenanceComponent,
     ScrollTopComponent,
-    WhoIAmComponent
+    WhoIAmComponent,
+    BigfiitComponent
   ],
   imports: [
     BrowserModule,
