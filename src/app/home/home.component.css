@@ -13,6 +13,16 @@
     background: #8cc043;
   }
 
+  #Desktop .pink:hover {
+    transition: all 1s ease;
+    background: #db75ce;
+  }
+
+  #Desktop .blue:hover {
+    transition: all 1s ease;
+    background: #436dc0;
+  }
+
   #Desktop mat-grid-tile a{
     padding: 100%;
     text-decoration: none;
@@ -62,6 +72,15 @@
 
   #Mobile mat-grid-tile #create {
     color: #e502a4;
+  }
+
+  #lientrello #trello {
+    color: #0283e5;
+  }
+
+  #Mobile mat-grid-tile #lientrello {
+    text-decoration: none;
+    color: #333333;
   }
 
   #Mobile mat-grid-tile:active {
