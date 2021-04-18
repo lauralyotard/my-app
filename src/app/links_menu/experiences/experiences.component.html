@@ -1,5 +1,5 @@
 <div id="experiences">
-  <a class="back" mat-button href="#home"><mat-icon>arrow_back</mat-icon></a>
+  <a class="back" mat-button routerLink=""><mat-icon>arrow_back</mat-icon></a>
   <div id="header">
     <p>
       Dans cette page, nous retracerons mon parcours.
@@ -117,15 +117,80 @@
           </tr>
         </table>
       </div>
+      <div id="complement">
+        <div>
+          <h1>Débouchés</h1>
+            <p>Concepteur/développeur web</p>
+            <p>Concepteur/développeur mobile</p>
+            <p>Développeur d’application</p>
+            <p>Chef de projet</p>
+            <p>Lead dev</p>
+        </div>
+        <div>
+          <h1>Passerelles et suite de parcours</h1>
+            <p>Masters dans le domaine du développement, du développement Web, du développement mobile, des bases de données</p>
+            <p>Ecoles d’Ingénieurs</p>
+        </div>
+      </div>
+      <div id="old">
+        <h2>Mes précédentes formations</h2>
+          <sup>2018 à 2020</sup>
+          <h3>BTS Services Informatique aux Organisations, option Solutions Logicielles et Applications Métiers</h3>
+          <p><mat-icon>location_on</mat-icon> La Chartreuse Paradis, Brives Charensac, Auvergne-Rhône-Alpes</p>
+          <p>Suivi du cycle de vie des applications, de l’analyse des besoins techniques à la maintenance des programmes.</p>
+        <hr class="dividerT2">
+          <sup>2017 à 2018</sup>
+          <h3>BAC Sciences et Technologies du Management et de la Gestion, option Système d’Information de Gestion</h3>
+          <p><mat-icon>location_on</mat-icon> La Chartreuse Paradis, Brives Charensac, Auvergne-Rhône-Alpes</p>
+          <p>Analyse des manipulations à informatiser, apprentissage des langages informatiques et étude des technologies associées.</p>
+      </div>
     </ng-container>
     <ng-container *ngIf="cardTwo">
       <hr class="divider">
       <h1>Mes deux stages en entreprises</h1>
       <p>Lors de mes deux stages en entreprises ainsi que mon alternance, j'ai eu l'opportunité de participer à trois projets.</p>
       <div id="stages">
-        <img src="assets/images/progest.png" alt="logo progest43">
-        <img src="assets/images/univhair.png" alt="carte de visite univ'hair coiffure">
-        <img src="assets/images/bigfiit.png" alt="logo big fiit">
+        <div>
+          <p>Mai 2019 à Juin 2019</p>
+          <hr class="dividerT2">
+          <p class="hauteur">
+            <img src="assets/images/progest.png" alt="logo progest43">
+          </p>
+          <hr class="dividerT2">
+          <h3><mat-icon>location_on</mat-icon>Blavozy, Auvergne-Rhône-Alpes</h3>
+          <p>
+            Migration de la partie comptabilité Access en version Web de la Fédération Française de Triathlon.
+            Maquettage des pages, suivi de la charte graphique du Site Officiel, mise en place du système de sécurité.
+            Connexion avec la base de données par Microsoft SQLServer.
+          </p>
+        </div>
+        <div>
+          <p>Janvier 2020 à Février 2020</p>
+          <hr class="dividerT2">
+          <p class="hauteur">
+            <img src="assets/images/univhair.png" alt="carte de visite univ'hair coiffure">
+          </p>
+          <hr class="dividerT2">
+          <h3><mat-icon>location_on</mat-icon>Lantriac, Auvergne-Rhône-Alpes</h3>
+          <p>
+            Création d'un site professionnel pour le salon de coiffure Univ'hair. Maquettage du site, création de la
+            charte graphique, installation du système de sécurité avec base de données, référencement, création avec
+            Symfony.
+          </p>
+        </div>
+        <div>
+          <p>Novembre 2020 à aujourd'hui</p>
+          <hr class="dividerT2">
+          <p class="hauteur">
+            <img src="assets/images/bigfiit.png" alt="logo big fiit">
+          </p>
+          <hr class="dividerT2">
+          <h3><mat-icon>location_on</mat-icon>Lyon, Auvergne-Rhône-Alpes</h3>
+          <p>
+            Développement sur la plateforme de sport en ligne Big Fiit. Maquettage des pages, rédaction du cahier des
+            charges, création avec Angular.
+          </p>
+        </div>
       </div>
       <a class="more" mat-button [routerLink]="['/projets']">Voir mes projets</a>
     </ng-container>

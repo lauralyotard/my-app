@@ -1,0 +1,28 @@
+/*---------------------------------CV-------------------------------------*/
+#cv {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF;
+  padding: 30px;
+  color: #757575;
+}
+
+#cv img {
+  margin: auto;
+  width: 100%!important;
+}
+
+/*---------------------------------CV>CONTENU-------------------------------------*/
+#cv #contenu {
+  color: #F2BDC7;
+}
+
+/*---------------------------------BUTTONS-------------------------------------*/
+
+.back {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+  border: 1px solid #757575;
+}

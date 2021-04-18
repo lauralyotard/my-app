@@ -103,7 +103,14 @@
   width: 40%!important;
 }
 
+#formation ul {
+  align-self: center;
+}
+
 /*---------------------------------CONTENU-------------------------------------*/
+#contenu {
+  margin-top: 10px;
+}
 
 #contenu table {
   width: 60%;
@@ -132,17 +139,99 @@
   background: #f6e5e8;
 }
 
+/*---------------------------------COMPLEMENT-------------------------------------*/
+
+#complement {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#complement div{
+  padding: 10px;
+  margin: 20px;
+  width: 80%;
+  border-radius: 10px;
+  background: #F2BDC7;
+  box-shadow: #333333 2px 6px 10px;
+}
+
+#complement div h1{
+  color: #ffffff;
+}
+
+@media (min-width: 801px) {
+  #complement {
+    flex-direction: row;
+  }
+
+  #complement div {
+    text-align: left;
+  }
+}
+
+@media (max-width: 800px) {
+  #complement {
+    flex-direction: column;
+  }
+
+  #complement div {
+    text-align: center;
+  }
+}
+
+#old sup {
+  background: #F2BDC7;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#old h3 {
+  color: #333333;
+}
+
+#old p {
+  color: #757575;
+}
+
+#old {
+  margin-top: 20px;
+}
+
 /*---------------------------------STAGES-------------------------------------*/
 
 #stages {
   display: flex;
 }
 
-#stages img {
-  margin: auto;
-  width: 20%!important;
+#stages div {
+  padding: 10px;
+  margin: 20px;
+  width: 80%;
+  border-radius: 10px;
+  background: #F2BDC7;
+  color: #333333;
+  box-shadow: #333333 2px 6px 10px;
 }
 
+#stages div h3 mat-icon {
+  color: #cb2323;
+}
+
+#stages div h3{
+  color: #757575;
+  margin: 15px!important;
+}
+
+#stages img {
+  margin: auto;
+  width: 50%!important;
+}
+
+#stages div .hauteur {
+  height: 150px;
+}
 
 @media (min-width: 801px) {
   #stages {

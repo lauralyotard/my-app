@@ -27,6 +27,8 @@ import { BigfiitComponent } from './links_menu/bigfiit/bigfiit.component';
 import { ExperiencesComponent } from './links_menu/experiences/experiences.component';
 import { ContactComponent } from './links_infos/contact/contact.component';
 import { CvComponent } from './cv/cv.component';
+import { UnivhairComponent } from './links_menu/univhair/univhair.component';
+import { ProgestComponent } from './links_menu/progest/progest.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { CvComponent } from './cv/cv.component';
     BigfiitComponent,
     ExperiencesComponent,
     ContactComponent,
-    CvComponent
+    CvComponent,
+    UnivhairComponent,
+    ProgestComponent
   ],
   imports: [
     BrowserModule,
