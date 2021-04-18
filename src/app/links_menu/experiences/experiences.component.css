@@ -1,0 +1,200 @@
+/*---------------------------------EXPERIENCES-------------------------------------*/
+#experiences {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF;
+  padding: 30px;
+}
+
+#experiences #header {
+  font-size: 25px;
+  color: #757575;
+}
+
+/*---------------------------------EXPERIENCES>CONTAINER-------------------------------------*/
+
+@media (min-width: 801px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+  }
+
+  .container div {
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: #333333 2px 6px 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+.container div {
+  padding: 10px;
+  margin: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: #333333 2px 6px 10px;
+}
+
+.container h2 {
+  color: #F2BDC7;
+}
+
+.container h3 {
+  color: #F2BDC7;
+}
+
+.container div img{
+  padding: 10px;
+  margin: auto;
+  width: 90%!important;
+}
+
+/*---------------------------------SECTIONS-------------------------------------*/
+
+#sections {
+  margin: auto;
+  width: 100%;
+}
+
+ #sections h1 {
+   color: #F2BDC7;
+ }
+
+ #sections h2 {
+   color: #F2BDC7;
+ }
+
+/*---------------------------------SECTIONS>FORMATION-------------------------------------*/
+
+#formation {
+  text-align: left;
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
+@media (min-width: 801px) {
+  #formation {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 800px) {
+  #formation {
+    flex-direction: column;
+  }
+}
+
+#formation img {
+  margin: auto;
+  width: 40%!important;
+}
+
+/*---------------------------------CONTENU-------------------------------------*/
+
+#contenu table {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  border: solid 1px #F2BDC7;
+  border-collapse: collapse;
+}
+
+#contenu table tr, th, td {
+  padding: 5px;
+  border: solid 1px #F2BDC7;
+}
+
+#contenu table th {
+ background: #757575;
+  color: #FFFFFF;
+}
+
+
+#contenu table tr:hover {
+  background: #F2BDC7;
+}
+
+#contenu table tr:nth-child(even) {
+  background: #f6e5e8;
+}
+
+/*---------------------------------STAGES-------------------------------------*/
+
+#stages {
+  display: flex;
+}
+
+#stages img {
+  margin: auto;
+  width: 20%!important;
+}
+
+
+@media (min-width: 801px) {
+  #stages {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 800px) {
+  #stages {
+    flex-direction: column;
+  }
+}
+
+/*---------------------------------ALTERNANCE-------------------------------------*/
+
+#alternance img {
+  margin: auto;
+  width: 20%!important;
+}
+
+/*---------------------------------BUTTONS-------------------------------------*/
+
+.back {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more {
+  margin-top: 40px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more:hover {
+  color: #F2BDC7;
+  border: 1px solid #F2BDC7;
+}
+
+/*---------------------------------DIVIDERS-------------------------------------*/
+
+.divider {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.dividerT2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+}

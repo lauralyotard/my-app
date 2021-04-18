@@ -1,3 +1,133 @@
+/*---------------------------------HOME-------------------------------------*/
+#home {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF;
+  padding: 30px;
+}
+
+#home h1 {
+  color: #757575;
+  font-size: 40px;
+  font-variant: petite-caps;
+}
+
+#home h2{
+  color: #F2BDC7;
+}
+
+#home img {
+  width: 100%;
+}
+
+/*---------------------------------HOME>MENU-------------------------------------*/
+
+#menu button {
+  margin: 5px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+#menu button:hover {
+  margin: 5px;
+  color: #F2BDC7;
+  border: 1px solid #F2BDC7;
+}
+
+#menu a {
+  margin: 5px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+#menu a:hover {
+  margin: 5px;
+  color: #F2BDC7;
+  border: 1px solid #F2BDC7;
+}
+
+/*---------------------------------HOME>PROFILE-------------------------------------*/
+
+#profile h2{
+  color: #F2BDC7;
+}
+
+@media (min-width: 801px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    box-shadow: #333333 2px 8px 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: #333333 2px 8px 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+.container div {
+  padding: 10px;
+  margin: auto;
+  width: 80%;
+}
+
+.container div img{
+  padding: 10px;
+  margin: auto;
+  width: 50%!important;
+}
+
+/*---------------------------------PARCOURS-------------------------------------*/
+
+#parcours p {
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+}
+
+/*---------------------------------DIVIDERS-------------------------------------*/
+
+.divider {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.dividerT2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+}
+
+/*---------------------------------BUTTONS-------------------------------------*/
+
+.back {
+  margin-top: 20px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more {
+  margin-top: 40px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more:hover {
+  color: #F2BDC7;
+  border: 1px solid #F2BDC7;
+}
+
+/*
 @media (min-width: 801px) {
   #Desktop mat-grid-tile {
     background: #333333;
@@ -88,3 +218,4 @@
     color: #333333;
   }
 }
+*/

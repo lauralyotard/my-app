@@ -1,4 +1,38 @@
-div {
+/*---------------------------------CONFIDENTIALITE-------------------------------------*/
+#confidentialite {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF;
+  padding: 30px;
+  color: #757575;
+}
+
+#confidentialite #short {
+  color: #F2BDC7;
+}
+
+/*---------------------------------CONFIDENTIALITE>CONTENU-------------------------------------*/
+
+#contenu {
+  text-align: left;
+}
+
+#contenu h2{
+  color: #F2BDC7;
+}
+
+/*---------------------------------BUTTONS-------------------------------------*/
+
+.back {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+
+/*div {
   color: #FFFFFF;
   background: #333333;
 }
@@ -54,4 +88,4 @@ div {
   margin-bottom: 0;
   padding-bottom: 10px;
 }
-
+*/
