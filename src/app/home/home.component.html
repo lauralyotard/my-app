@@ -1,6 +1,94 @@
-<mat-grid-list id="Desktop" cols="3" rowHeight="2:1">
+<div id="home">
+  <h1>Bienvenue sur mon Portfolio !</h1>
+  <h2>Laura Lyotard - Développeur Web</h2>
+  <p>Autodidacte et disciplinée, je suis une jeune développeuse qui souhaite gagner en expérience et travailler dans un domaine qui me passionne.</p>
+  <img src="assets/images/accueil.jpg" alt="photo accueil">
+  <div id="menu">
+    <a mat-button href="#profile">Accueil</a>
+    <a mat-button href="#parcours">Mon parcours</a>
+    <a mat-button [routerLink]="['/projets']">Mes projets</a>
+    <a mat-button [routerLink]="['/cv']">Curriculum Vitae</a>
+    <a mat-button [routerLink]="['/contact']">Contact</a>
+  </div>
+  <hr class="divider">
+  <div id="profile">
+    <h2>Qui suis je ?</h2>
+    <p>
+      Si vous êtes ici, ce n'est sans doute pas par hasard. Vous souhaitez en savoir plus sur mon profil, n'est ce pas ?
+    </p>
+    <p>
+      <b>Vous êtes au bon endroit !</b>
+    </p>
+    <p>
+      En quelques mots, je suis développeuse web, principalement Front.
+    </p>
+    <div class="container">
+      <div>
+        <img src="assets/images/multitaches.gif" alt="icone multi taches">
+        <h2>Multi-tâches</h2>
+        <p>Polyvalente, curieuse et autonome.</p>
+      </div>
+      <div>
+        <img src="assets/images/organisee.gif" alt="icone organisée">
+        <h2>Organisée</h2>
+        <p>Créer et gérer un calendrier.</p>
+      </div>
+      <div>
+        <img src="assets/images/rigoureuse.gif" alt="icone rigoureuse">
+        <h2>Rigoureuse</h2>
+        <p>Parce que chaque détail compte.</p>
+      </div>
+      <div>
+        <img src="assets/images/sociable.gif" alt="icone sociable">
+        <h2>Sociable</h2>
+        <p>Intégrer une équipe dans la convivialité.</p>
+      </div>
+    </div>
+    <a class="back" mat-button href="#home"><mat-icon>arrow_upward</mat-icon></a>
+  </div>
+  <hr class="divider">
+  <div id="parcours">
+    <h2>Mon parcours</h2>
+    <p>
+      Je suis une développeuse agée de 20 ans en licence MSW CDA au Lycée La Chartreuse Paradis.
+      Tout d'abord, je souhaite accéder à la formation Mastère Développeur Web/Tech Lead de Digital Campus à Toulouse
+      pour aller jusqu'au bout de mes objectifs. Je suis une passionnée d'informatique, c'est une évidence que mes
+      études seraient dans ce domaine.
+    </p>
+    <hr class="dividerT2">
+    <p>
+      Après mon BTS SIO, je voulais partir en prépa-mastère à Lyon dans l'école Digital Campus, en alternance.
+      J'ai contacté de nombreuses entreprises et malheureusement cela n'a pas pu se concrétiser au vue de la situation
+      sanitaire instable. J'ai poursuivi avec mon école actuelle en licence de développement Web, disponible en
+      alternance et en cursus initial. Environ 2 mois après le début de ma formation, la crise ayant évolué une des
+      entreprises que j'avais contacté est revenue vers moi. Mon profil les intéressés et ils m'ont suivi dans mon
+      projet de licence en alternance. C'est le début d'une nouvelle aventure que j'entreprend.
+    </p>
+    <hr class="dividerT2">
+    <p>
+      Je découvre de nombreuses choses à leur côté. J'ai pu travailler sur un projet concret, suivre la méthode Agile
+      pour la réalisation de ce dernier. Avancer avec des contraintes et proposer une solution adaptée pour chaque
+      situation. La pratique constante d'une pluralité de langages est un bénéfice pour la compréhension et
+      l'interprétation du code de divers travaux.
+    </p>
+    <p>
+      Malgré un certain nombre de déconvenues. J'ai un travail qui me plait, et dans lequel j'ai le sentiment que
+      c'est un plaisir plus qu'un travail. Je suis avec une excellente équipe de développement et une entreprise qui
+      me donne l'opportunité d'acquérir de l'expérience professionnelle.
+    </p>
+    <hr class="dividerT2">
+    <p>
+      Aujourd'hui, j'ai la confirmation que mon choix d'orientation professionnelle correspond à ce qui me plait et
+      je suis confiante pour avancer dans ma vie et ma future carrière. J'ai acquis une meilleure compréhension
+      et approche d'un projet d'un point de vue professionnel. J'ai la volonté d'aller en Master en alternance, et
+      je sais que j'ai les ressources et les capacités pour y parvenir.
+    </p>
+  </div>
+  <a class="more" mat-button [routerLink]="['/experiences']">En savoir plus</a>
+</div>
+<!--<mat-grid-list id="Desktop" cols="3" rowHeight="2:1">
   <mat-grid-tile class="green"><img style="opacity: 30%" src="assets/images/cover_parcours.jpg" width="100%" alt="Mon parcours"><a [routerLink]="['/parcours']"><mat-icon>school</mat-icon> Mon parcours</a></mat-grid-tile>
-  <mat-grid-tile><img style="opacity: 30%" src="assets/images/guitar.jpg" width="100%" alt="Mes passions"><a [routerLink]="['/passions']"><mat-icon>favorite</mat-icon> Mes passions</a></mat-grid-tile>
+  <mat-grid-tile><img style="opacity: 30%" src="assets/images/guitar.jpg" width="100%" alt="Mes projets"><a [routerLink]="['/projets']"><mat-icon>favorite</mat-icon> Mes projets</a></mat-grid-tile>
   <mat-grid-tile><img style="opacity: 30%" src="assets/images/le_code.jpg" width="100%" alt="Mon profil"><a [routerLink]="['/who-i-am']"><mat-icon>star</mat-icon> Ma présentation</a></mat-grid-tile>
   <mat-grid-tile class="pink"><img style="opacity: 30%" src="assets/images/bigfiit.png" width="50%" alt="Big Fiit"><a [routerLink]="['/bigfiit']"><mat-icon>create</mat-icon> BigFiit</a></mat-grid-tile>
   <mat-grid-tile class="blue"><img style="opacity: 30%" src="assets/images/trello.jpg" width="100%" alt="Trello"><a href="https://trello.com/b/kgywew7D/roadmap-lauralyotardfr" target="_blank"><mat-icon>info</mat-icon> RoadMap</a></mat-grid-tile>
@@ -9,9 +97,9 @@
 
 <mat-grid-list id="Mobile" cols="1" rowHeight="4:1">
   <mat-grid-tile [routerLink]="['/parcours']"><mat-icon id="learn">school</mat-icon> Mon parcours</mat-grid-tile>
-  <mat-grid-tile [routerLink]="['/passions']"><mat-icon id="favorite">favorite</mat-icon> Mes passions</mat-grid-tile>
+  <mat-grid-tile [routerLink]="['/projets']"><mat-icon id="favorite">favorite</mat-icon> Mes projets</mat-grid-tile>
   <mat-grid-tile [routerLink]="['/who-i-am']"><mat-icon id="star">star</mat-icon> Qui suis je ?</mat-grid-tile>
   <mat-grid-tile [routerLink]="['/bigfiit']"><mat-icon id="create">create</mat-icon> BigFiit</mat-grid-tile>
   <mat-grid-tile><a id="lientrello" href="https://trello.com/b/kgywew7D/roadmap-lauralyotardfr" target="_blank"><mat-icon id="trello">info</mat-icon>RoadMap</a></mat-grid-tile>
   <mat-grid-tile [routerLink]="['/building']"><mat-icon>construction</mat-icon> En construction</mat-grid-tile>
-</mat-grid-list>
+</mat-grid-list>-->

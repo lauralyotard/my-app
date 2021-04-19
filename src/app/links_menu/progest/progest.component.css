@@ -1,0 +1,36 @@
+/*---------------------------------PROGEST-------------------------------------*/
+#progest {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF;
+  padding: 30px;
+}
+
+#progest h1 {
+  color: #F2BDC7;
+}
+
+#progest img {
+  margin: auto;
+  width: 50%;
+}
+
+/*---------------------------------BUTTONS-------------------------------------*/
+
+.back {
+  margin-top: 20px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more {
+  margin-top: 40px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more:hover {
+  color: #F2BDC7;
+  border: 1px solid #F2BDC7;
+}
