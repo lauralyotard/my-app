@@ -1,27 +1,41 @@
+## English
 # MyApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
+This project is develop with the Angular Framework, [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
-## Development server
+# This project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I realised this project for a presentation to my next school. (I  hope!).
+Into this, I present my school projects, my professional works and my school path.
 
-## Code scaffolding
+# What is it?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+It's a portfolio where we can found, my way, my projects schools and professionals, my professionals experiences, my curriculum vitae and a lot of things about my personality. 
+All of this came from me and my hands coding.
 
-## Build
+# Some words
+You can be sure, I took a lot of pleasure to make this work. I'm proud of me and my project. A year ago, I couldn't believe that today, I arrived to do that.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Acknowledgements
+Thanks to my Job coworkers, my family and my friends.
 
-## Running unit tests
+## French
+# MyApp
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ce projet est développé avec le Framework Angular, [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# Ce projet
 
-## Further help
+J'ai réalisé ce projet pour une présentation à ma prochaine école. (j'espère !).
+Dans celui-ci, je présente mes projets scolaires, mes travaux professionnels et mon parcours scolaire.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Que ce que c'est ?
+C'est un portfolio où l'on retrouve, mon parcours, mes projets scolaires et professionnels, mes expériences professionnelles, mon curriculum vitae et beaucoup de choses sur ma personnalité. 
+Tout cela vient de moi et de mes propres mains.
+
+# Quelques mots
+Vous pouvez être sûrs que j'ai pris beaucoup de plaisir à faire ce travail. Je suis fier de moi et de mon projet. Il y a un an, je ne pouvais pas croire qu'aujourd'hui, je serai capable de faire ça.
+
+# Remerciements
+Merci à mes collègues de travail, à ma famille et à mes amis.
