@@ -39,3 +39,7 @@ Vous pouvez être sûrs que j'ai pris beaucoup de plaisir à faire ce travail. J
 
 ## Remerciements
 Merci à mes collègues de travail, à ma famille et à mes amis.
+
+# RoadMap - Feuille de route
+
+https://trello.com/b/kgywew7D/roadmap-lauralyotardfr
