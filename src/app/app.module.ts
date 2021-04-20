@@ -10,6 +10,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -51,7 +52,8 @@ import { ProgestComponent } from './links_menu/progest/progest.component';
     MatButtonModule,
     MatMenuModule,
     MatIconModule,
-    A11yModule
+    A11yModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
