@@ -226,7 +226,7 @@
 
 #stages img {
   margin: auto;
-  width: 50%!important;
+  width: 30%!important;
 }
 
 #stages div .hauteur {
@@ -249,7 +249,35 @@
 
 #alternance img {
   margin: auto;
-  width: 20%!important;
+  width: 30%!important;
+}
+
+#alternance #bigfiit .hauteur {
+  height: 100%;
+}
+
+#alternance #bigfiit img{
+  width: 40%!important;
+}
+
+
+#alternance #bigfiit {
+  padding: 10px;
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  background: #F2BDC7;
+  color: #333333;
+  box-shadow: #333333 2px 6px 10px;
+}
+
+#alternance #bigfiit h3 mat-icon {
+  color: #cb2323;
+}
+
+#alternance #bigfiit h3{
+  color: #757575;
+  margin: 15px!important;
 }
 
 /*---------------------------------BUTTONS-------------------------------------*/
@@ -268,6 +296,17 @@
 }
 
 .more:hover {
+  color: #F2BDC7;
+  border: 1px solid #F2BDC7;
+}
+
+.kns {
+  margin-bottom: 40px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.kns:hover {
   color: #F2BDC7;
   border: 1px solid #F2BDC7;
 }

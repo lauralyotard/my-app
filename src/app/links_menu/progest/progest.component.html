@@ -1,9 +1,50 @@
 <div id="progest">
   <a class="back" mat-button routerLink="/projets"><mat-icon>arrow_back</mat-icon></a>
-  <h1>En construction</h1>
-  <div>
-    <mat-icon>handyman</mat-icon>
+  <h1>Projet de conversion Access en Web</h1>
+  <div id="triathlon">
+    <img id="logo" alt="Logo Triathlon" src="assets/images/triathlon.svg">
   </div>
-  <p>La page est en construction, elle arrivera bientôt...</p>
-  <img src="assets/images/build.jpg" alt="construction">
+  <h2>L'objectif</h2>
+  <p>
+    L’objectif principal du projet était de transférer une interface accessible via Access en version Web disponible depuis le net.
+    Le site a pour but d'améliorer l'usage actuel des utilisateurs. Il était essentiel de rendre le site plus intuitif, plus fluide
+    et plus léger. Les pages Access servaient pour la consultation et saisie de la comptabilité de la Fédération Française de Triathlon.
+  </p>
+  <hr class="dividerT2">
+  <p>
+    Le site est développé avec le Framework Symfony sur l'architecture logicielle Modèle-Vue-Contrôleur.
+  </p>
+  <hr class="dividerT2">
+  <p>
+    Le plus grand défi a été de connecter et de travailler avec les données existantes en base. Celle ci se trouvait sur une base
+    Microsoft SQL Server. Il y avait énormément de datas, il fallait faire des vues afin de faire appel à des requêtes simples et
+    minimiser le temps de chargement des données appelées.
+  </p>
+  <hr class="dividerT2">
+  <p>
+    Le second point principal du projet était de segmenter les autorisations d'accès avec des pages de connexion et restrictions d'accès
+    par hauteur de rôles. Il fallait sécuriser l'ensemble des pages pour supprimer tous risques qu'un utilisateur se retrouve sur
+    une page où l'accès lui est restreint.
+  </p>
+  <p>
+    Un dernier point essentiel était de composer la charte graphique du site. Etant donné, qu'il émane d'une base Access, il n'avait aucune
+    réelle identité graphique. Le site concerne Fédération Française de Triathlon, il fallait utiliser les mêmes couleurs que le site
+    officiel.
+  </p>
+  <hr class="dividerT2">
+  <a class="more" mat-button href="https://www.fftri.com" target="_blank">Voitr le Site de la Fédération</a>
+  <h2>Le Git Repository</h2>
+  <hr class="dividerT2">
+  <p>
+    Le site est soumis à une clause de confidentialité. Uniquement des captures du Git Repository sont autorisées.
+  </p>
+
+  <hr class="dividerT2">
+  <div id="maquettes">
+    <img src="assets/images/fftri_all.png" alt="Git Repository Progest Complet">
+    <img src="assets/images/fftri_include.png" alt="Git Repository Progest Include">
+  </div>
+  <sub>
+    Page du Git Repository de la solution logicielle Web Progest43 pour la Fédération Française de Triathlon.
+  </sub>
 </div>

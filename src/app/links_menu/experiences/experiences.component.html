@@ -2,10 +2,7 @@
   <a class="back" mat-button routerLink=""><mat-icon>arrow_back</mat-icon></a>
   <div id="header">
     <p>
-      Dans cette page, nous retracerons mon parcours.
-    </p>
-    <p>
-      Allant de la formation jusqu’à mon entrée dans le monde professionnel.
+      Cette page retrace mes expériences de ma formation jusqu’à mon entrée dans le monde professionnel.
     </p>
   </div>
   <div class="container">
@@ -17,14 +14,14 @@
     </div>
     <div>
       <img src="assets/images/stage.jpg" alt="photo de stage">
-      <h2>Stages professionnels</h2>
-      <p>Les stages en entreprise sont essentiels durant une formation.</p>
+      <h2>Expériences professionnels</h2>
+      <p>Les stages en entreprise sont essentiels à l'immersion professionnelles.</p>
       <a class="more" mat-button (click)="selectCardTwo()">En savoir plus</a>
     </div>
     <div>
       <img src="assets/images/entreprise.jpg" alt="photo d'entreprise">
-      <h2>Expériences professionnelles</h2>
-      <p>Les expériences professionnelles sont la concrétisation de l'apprentissage en formation.</p>
+      <h2>Expériences en alternance</h2>
+      <p>L'alternance est la concrétisation de l'apprentissage en formation.</p>
       <a class="more" mat-button (click)="selectCardThree()">En savoir plus</a>
     </div>
   </div>
@@ -131,6 +128,10 @@
             <p>Masters dans le domaine du développement, du développement Web, du développement mobile, des bases de données</p>
             <p>Ecoles d’Ingénieurs</p>
         </div>
+        <div>
+          <img src="assets/images/gouv.png" width="40%" alt="Logo du gouvernement">
+          <p>La formation est reconnue par l'Etat et est inscrite au RNCP.</p>
+        </div>
       </div>
       <div id="old">
         <h2>Mes précédentes formations</h2>
@@ -148,7 +149,7 @@
     <ng-container *ngIf="cardTwo">
       <hr class="divider">
       <h1>Mes deux stages en entreprises</h1>
-      <p>Lors de mes deux stages en entreprises ainsi que mon alternance, j'ai eu l'opportunité de participer à trois projets.</p>
+      <p>Lors de mes deux stages en entreprises, j'ai eu l'opportunité de participer à deux projets.</p>
       <div id="stages">
         <div>
           <p>Mai 2019 à Juin 2019</p>
@@ -178,19 +179,6 @@
             Symfony.
           </p>
         </div>
-        <div>
-          <p>Novembre 2020 à aujourd'hui</p>
-          <hr class="dividerT2">
-          <p class="hauteur">
-            <img src="assets/images/bigfiit.png" alt="logo big fiit">
-          </p>
-          <hr class="dividerT2">
-          <h3><mat-icon>location_on</mat-icon>Lyon, Auvergne-Rhône-Alpes</h3>
-          <p>
-            Développement sur la plateforme de sport en ligne Big Fiit. Maquettage des pages, rédaction du cahier des
-            charges, création avec Angular.
-          </p>
-        </div>
       </div>
       <a class="more" mat-button [routerLink]="['/projets']">Voir mes projets</a>
     </ng-container>
@@ -209,9 +197,27 @@
           J'ai l'opportunité de bénéficier d'un contrat d'alternance et de pouvoir mettre en application sur le terrain
           toutes mes connaissances théoriques.
         </p>
-        <img src="assets/images/logo_kns.png" alt="logo kns">
+        <div>
+          <img src="assets/images/logo_kns.png" alt="logo kns">
+        </div>
+        <a class="kns" mat-button href="https://www.kns.fr" target="_blank">Consulter KNS.fr</a>
+        <h2>Projet professionnel</h2>
+        <p>Lors de mon alternance, j'ai eu l'opportunité de participer à un projet d'envergure nationale.</p>
+        <div id="bigfiit">
+          <p>Novembre 2020 à aujourd'hui</p>
+          <hr class="dividerT2">
+          <p class="hauteur">
+            <img src="assets/images/bigfiit_name.png" alt="logo big fiit">
+          </p>
+          <hr class="dividerT2">
+          <h3><mat-icon>location_on</mat-icon>Lyon, Auvergne-Rhône-Alpes</h3>
+          <p>
+            Développement sur la plateforme de sport en ligne Big Fiit. Maquettage des pages, rédaction du cahier des
+            charges, création avec Angular.
+          </p>
+        </div>
+        <a class="more" mat-button [routerLink]="['/bigfiit']">Voir le projet</a>
       </div>
-      <a class="more" mat-button href="https://www.kns.fr" target="_blank">Consulter KNS.fr</a>
     </ng-container>
   </div>
 </div>

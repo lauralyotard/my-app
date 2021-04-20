@@ -16,6 +16,39 @@
   width: 25%;
 }
 
+#bigfiit #maquettes {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  #bigfiit #maquettes {
+    flex-direction: column;
+  }
+
+  #bigfiit #maquettes img {
+    margin: auto;
+    padding: 5px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 801px) {
+  #bigfiit #maquettes {
+    flex-direction: row;
+  }
+
+  #bigfiit #maquettes img {
+    margin: auto;
+    padding: 5px;
+    width: 40%;
+  }
+}
+
+#bigfiit #maquettes img {
+  margin: auto;
+  padding: 5px;
+}
+
 #bigfiit h2 {
   color: #F2BDC7;
 }
@@ -55,7 +88,7 @@
 }
 
 .more {
-  margin-top: 40px;
+  margin-bottom: 40px;
   color: #757575;
   border: 1px solid #757575;
 }

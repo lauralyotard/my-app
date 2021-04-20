@@ -6,14 +6,60 @@
   background: #FFFFFF;
   padding: 30px;
 }
+#triathlon {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#triathlon img{
+  filter: invert(1);
+}
 
 #progest h1 {
+  color: #F2BDC7;
+}
+
+#progest h2 {
   color: #F2BDC7;
 }
 
 #progest img {
   margin: auto;
   width: 50%;
+}
+
+#progest p {
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+}
+
+#progest #maquettes {
+  display: flex;
+  flex-direction: column;
+}
+
+#progest #maquettes img {
+  margin: auto;
+  padding: 5px;
+  width: 80%;
+}
+
+/*---------------------------------DIVIDERS-------------------------------------*/
+
+.divider {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.dividerT2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
 }
 
 /*---------------------------------BUTTONS-------------------------------------*/
@@ -25,7 +71,7 @@
 }
 
 .more {
-  margin-top: 40px;
+  margin-bottom: 40px;
   color: #757575;
   border: 1px solid #757575;
 }
