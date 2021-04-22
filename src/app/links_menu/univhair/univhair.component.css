@@ -15,11 +15,6 @@
   color: #ED7990;
 }
 
-#univhair img {
-  margin: auto;
-  width: 15%;
-}
-
 #univhair p {
   margin: auto;
   width: 80%;
@@ -48,6 +43,11 @@
   #univhair .maquettes img {
     margin: auto;
     padding: 5px;
+    width: 100%;
+  }
+
+  #univhair img {
+    margin: auto;
     width: 80%;
   }
 }
@@ -61,6 +61,12 @@
     margin: auto;
     padding: 5px;
     width: 50%;
+  }
+
+  #univhair img {
+    padding-top: 5px;
+    margin: auto;
+    width: 30%;
   }
 }
 /*---------------------------------DIVIDERS-------------------------------------*/
