@@ -49,11 +49,11 @@
 }
 
 .container h2 {
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 .container h3 {
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 .container div img{
@@ -70,11 +70,11 @@
 }
 
  #sections h1 {
-   color: #F2BDC7;
+   color: #ed7990;
  }
 
  #sections h2 {
-   color: #F2BDC7;
+   color: #ed7990;
  }
 
 /*---------------------------------SECTIONS>FORMATION-------------------------------------*/
@@ -116,13 +116,13 @@
   width: 60%;
   margin: auto;
   text-align: left;
-  border: solid 1px #F2BDC7;
+  border: solid 1px #ed7990;
   border-collapse: collapse;
 }
 
 #contenu table tr, th, td {
   padding: 5px;
-  border: solid 1px #F2BDC7;
+  border: solid 1px #ed7990;
 }
 
 #contenu table th {
@@ -132,7 +132,7 @@
 
 
 #contenu table tr:hover {
-  background: #F2BDC7;
+  background: #ed7990;
 }
 
 #contenu table tr:nth-child(even) {
@@ -296,8 +296,8 @@
 }
 
 .more:hover {
-  color: #F2BDC7;
-  border: 1px solid #F2BDC7;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 .kns {
@@ -307,8 +307,8 @@
 }
 
 .kns:hover {
-  color: #F2BDC7;
-  border: 1px solid #F2BDC7;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 /*---------------------------------DIVIDERS-------------------------------------*/

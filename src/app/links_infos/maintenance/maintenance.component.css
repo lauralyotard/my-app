@@ -9,7 +9,7 @@
 }
 
 #maintenance #short {
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 /*---------------------------------MAINTENANCE>CONTENU-------------------------------------*/
@@ -19,11 +19,11 @@
 }
 
 #contenu h2{
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 #contenu .date{
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 /*---------------------------------BUTTONS-------------------------------------*/

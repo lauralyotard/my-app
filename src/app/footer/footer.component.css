@@ -6,6 +6,7 @@
   background: #FFFFFF;
   padding: 30px;
   color: #757575;
+  bottom: 0;
 }
 
 /*---------------------------------FOOTER>INFOS-------------------------------------*/
@@ -24,7 +25,7 @@
 }
 
 #footer #infos a:hover {
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 /*---------------------------------FOOTER>PLAN-------------------------------------*/
@@ -43,7 +44,7 @@
 }
 
 #footer #plan a:hover {
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 /*---------------------------------FOOTER>SOCIAL-------------------------------------*/
@@ -58,8 +59,8 @@
 }
 
 #footer #social a:hover {
-  color: #F2BDC7;
-  border: 1px solid #F2BDC7;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 /*---------------------------------DIVIDERS-------------------------------------*/

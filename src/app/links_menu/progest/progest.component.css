@@ -17,11 +17,11 @@
 }
 
 #progest h1 {
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 #progest h2 {
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 #progest img {
@@ -77,6 +77,6 @@
 }
 
 .more:hover {
-  color: #F2BDC7;
-  border: 1px solid #F2BDC7;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }

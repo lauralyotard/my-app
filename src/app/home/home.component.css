@@ -14,7 +14,7 @@
 }
 
 #home h2{
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 #home img {
@@ -31,8 +31,8 @@
 
 #menu button:hover {
   margin: 5px;
-  color: #F2BDC7;
-  border: 1px solid #F2BDC7;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 #menu a {
@@ -43,14 +43,14 @@
 
 #menu a:hover {
   margin: 5px;
-  color: #F2BDC7;
-  border: 1px solid #F2BDC7;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 /*---------------------------------HOME>PROFILE-------------------------------------*/
 
 #profile h2{
-  color: #F2BDC7;
+  color: #ed7990;
 }
 
 @media (min-width: 801px) {
@@ -123,8 +123,8 @@
 }
 
 .more:hover {
-  color: #F2BDC7;
-  border: 1px solid #F2BDC7;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 /*

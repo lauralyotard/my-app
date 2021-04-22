@@ -14,17 +14,17 @@ import { UnivhairComponent } from './links_menu/univhair/univhair.component';
 import { ProgestComponent } from './links_menu/progest/progest.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'projets', component: ProjetsComponent },
-  { path: 'univhair', component: UnivhairComponent },
-  { path: 'progest', component: ProgestComponent },
-  { path: 'experiences', component: ExperiencesComponent },
-  { path: 'cv', component: CvComponent },
-  { path: 'politique-de-confidentalite', component: ConfidentialiteComponent },
-  { path: 'conditions-generales-d-utilisation', component: CguComponent },
-  { path: 'mises-a-jour', component: MaintenanceComponent },
-  { path: 'bigfiit', component: BigfiitComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: '', component: HomeComponent, data: {animation: 'Home'} },
+  { path: 'projets', component: ProjetsComponent, data: {animation: 'Projets'} },
+  { path: 'univhair', component: UnivhairComponent, data: {animation: 'Univhair'} },
+  { path: 'progest', component: ProgestComponent, data: {animation: 'Progest'} },
+  { path: 'experiences', component: ExperiencesComponent, data: {animation: 'Experiences'} },
+  { path: 'cv', component: CvComponent, data: {animation: 'CV'} },
+  { path: 'politique-de-confidentalite', component: ConfidentialiteComponent, data: {animation: 'Confidentialite'} },
+  { path: 'conditions-generales-d-utilisation', component: CguComponent, data: {animation: 'CGU'} },
+  { path: 'mises-a-jour', component: MaintenanceComponent, data: {animation: 'MAJ'} },
+  { path: 'bigfiit', component: BigfiitComponent, data: {animation: 'BigFiit'} },
+  { path: 'contact', component: ContactComponent, data: {animation: 'Contact'} }
 ];
 
 @NgModule({
