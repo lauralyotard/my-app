@@ -1,6 +1,6 @@
 /*---------------------------------EXPERIENCES-------------------------------------*/
 #experiences {
-  width: 60%;
+  width: 80%;
   margin: auto;
   text-align: center;
   background: #FFFFFF;
@@ -9,7 +9,7 @@
 
 #experiences #header {
   font-size: 25px;
-  color: #757575;
+  color: #333333;
 }
 
 /*---------------------------------EXPERIENCES>CONTAINER-------------------------------------*/
@@ -49,11 +49,11 @@
 }
 
 .container h2 {
-  color: #ed7990;
+  color: #56718e;
 }
 
 .container h3 {
-  color: #ed7990;
+  color: #56718e;
 }
 
 .container div img{
@@ -70,75 +70,40 @@
 }
 
  #sections h1 {
-   color: #ed7990;
+   color: #56718e;
  }
 
  #sections h2 {
-   color: #ed7990;
+   color: #56718e;
  }
 
-/*---------------------------------SECTIONS>FORMATION-------------------------------------*/
-
-#formation {
-  text-align: left;
-  margin: auto;
-  width: 100%;
-  display: flex;
-}
-
-@media (min-width: 801px) {
-  #formation {
-    flex-direction: row;
-  }
-}
-
-@media (max-width: 800px) {
-  #formation {
-    flex-direction: column;
-  }
-}
-
-#formation img {
-  margin: auto;
-  width: 40%!important;
-}
-
-#formation ul {
-  align-self: center;
-}
-
 /*---------------------------------CONTENU-------------------------------------*/
-#contenu {
-  margin-top: 10px;
-}
-
-#contenu table {
+table {
   width: 60%;
   margin: auto;
   text-align: left;
-  border: solid 1px #ed7990;
+  border: solid 1px #56718e;
   border-collapse: collapse;
 }
 
-#contenu table tr, th, td {
-  padding: 5px;
-  border: solid 1px #ed7990;
+table tr, th, td {
+  font-size: 16px;
+  padding: 20px;
+  border: solid 1px #56718e;
 }
 
-#contenu table th {
- background: #757575;
+table th {
+ background: #333333;
   color: #FFFFFF;
 }
 
-
-#contenu table tr:hover {
-  background: #ed7990;
+table tr:hover {
+  background: #56718e;
 }
 
-#contenu table tr:nth-child(even) {
-  background: #f6e5e8;
+table tr:nth-child(even) {
+  background: #bbcbdc;
 }
-
 /*---------------------------------COMPLEMENT-------------------------------------*/
 
 #complement {
@@ -182,7 +147,7 @@
 }
 
 #old sup {
-  background: #F2BDC7;
+  background: #adbccd;
   border-radius: 10px;
   padding: 5px;
 }
@@ -192,7 +157,7 @@
 }
 
 #old p {
-  color: #757575;
+  color: #333333;
 }
 
 #old {
@@ -210,7 +175,7 @@
   margin: 20px;
   width: 80%;
   border-radius: 10px;
-  background: #F2BDC7;
+  background: #adbccd;
   color: #333333;
   box-shadow: #333333 2px 6px 10px;
 }
@@ -220,7 +185,7 @@
 }
 
 #stages div h3{
-  color: #757575;
+  color: #333333;
   margin: 15px!important;
 }
 
@@ -266,7 +231,7 @@
   margin: auto;
   width: 60%;
   border-radius: 10px;
-  background: #F2BDC7;
+  background: #adbccd;
   color: #333333;
   box-shadow: #333333 2px 6px 10px;
 }
@@ -276,7 +241,7 @@
 }
 
 #alternance #bigfiit h3{
-  color: #757575;
+  color: #333333;
   margin: 15px!important;
 }
 
@@ -285,30 +250,30 @@
 .back {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #757575;
-  border: 1px solid #757575;
+  color: #333333;
+  border: 1px solid #333333;
 }
 
 .more {
   margin-top: 40px;
-  color: #757575;
-  border: 1px solid #757575;
+  color: #333333;
+  border: 1px solid #333333;
 }
 
 .more:hover {
-  color: #ed7990;
-  border: 1px solid #ed7990;
+  color: #56718e;
+  border: 1px solid #56718e;
 }
 
 .kns {
   margin-bottom: 40px;
-  color: #757575;
-  border: 1px solid #757575;
+  color: #333333;
+  border: 1px solid #333333;
 }
 
 .kns:hover {
-  color: #ed7990;
-  border: 1px solid #ed7990;
+  color: #56718e;
+  border: 1px solid #56718e;
 }
 
 /*---------------------------------DIVIDERS-------------------------------------*/

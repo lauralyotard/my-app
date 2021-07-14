@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import Splide from '@splidejs/splide';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,12 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    new Splide( '.splide', {
+      type        : 'loop',
+      perPage     : 1,
+      autoplay    : true,
+      pauseOnHover: false,
+    } ).mount();
+    /*new Splide('.splide').mount();*/
   }
-
 }
