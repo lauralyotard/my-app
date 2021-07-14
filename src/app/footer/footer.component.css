@@ -1,11 +1,11 @@
 /*---------------------------------FOOTER-------------------------------------*/
 #footer {
-  width: 80%;
+  width: 60%;
   margin: auto;
   text-align: center;
   background: #FFFFFF;
   padding: 30px;
-  color: #333333;
+  color: #757575;
   bottom: 0;
 }
 
@@ -20,12 +20,12 @@
 
 #footer #infos a {
   text-decoration: none;
-  color: #333333;
+  color: #757575;
   margin: 10px;
 }
 
 #footer #infos a:hover {
-  color: #56718e;
+  color: #ed7990;
 }
 
 /*---------------------------------FOOTER>PLAN-------------------------------------*/
@@ -39,25 +39,28 @@
 
 #footer #plan a {
   text-decoration: none;
-  color: #333333;
+  color: #757575;
   margin: 10px;
 }
 
 #footer #plan a:hover {
-  color: #56718e;
+  color: #ed7990;
 }
 
 /*---------------------------------FOOTER>SOCIAL-------------------------------------*/
 
 #footer #social a {
   height: 40px;
-  width: 100px;
-  color: #333333;
+  width: 40px;
+  color: #757575;
+  border: 1px solid #757575;
+  border-radius: 50px;
   margin: 10px;
 }
 
 #footer #social a:hover {
-  color: #56718e;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 /*---------------------------------DIVIDERS-------------------------------------*/

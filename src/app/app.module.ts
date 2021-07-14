@@ -15,27 +15,32 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { PhotosComponent} from './links_menu/photos/photos.component';
+import { ProjetsComponent } from './links_menu/projets/projets.component';
 import { ConfidentialiteComponent } from './links_infos/confidentialite/confidentialite.component';
 import { CguComponent } from './links_infos/cgu/cgu.component';
 import { MaintenanceComponent } from './links_infos/maintenance/maintenance.component';
-import { HorairesComponent } from './links_menu/horaires/horaires.component';
+import { BigfiitComponent } from './links_menu/bigfiit/bigfiit.component';
+import { ExperiencesComponent } from './links_menu/experiences/experiences.component';
 import { ContactComponent } from './links_infos/contact/contact.component';
+import { CvComponent } from './cv/cv.component';
 import { UnivhairComponent } from './links_menu/univhair/univhair.component';
-import {MatCardModule} from '@angular/material/card';
+import { ProgestComponent } from './links_menu/progest/progest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HomeComponent,
-    PhotosComponent,
+    ProjetsComponent,
     ConfidentialiteComponent,
     CguComponent,
     MaintenanceComponent,
-    HorairesComponent,
+    BigfiitComponent,
+    ExperiencesComponent,
     ContactComponent,
-    UnivhairComponent
+    CvComponent,
+    UnivhairComponent,
+    ProgestComponent
   ],
   imports: [
     BrowserModule,
@@ -48,8 +53,7 @@ import {MatCardModule} from '@angular/material/card';
     MatMenuModule,
     MatIconModule,
     A11yModule,
-    MatTooltipModule,
-    MatCardModule
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

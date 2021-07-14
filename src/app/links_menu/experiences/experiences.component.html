@@ -1,0 +1,224 @@
+<div id="experiences">
+  <a class="back" mat-button routerLink=""><mat-icon>arrow_back</mat-icon></a>
+  <div id="header">
+    <p>
+      Cette page retrace mes expériences, de ma formation jusqu’à mon entrée dans le monde professionnel.
+    </p>
+  </div>
+  <div class="container">
+    <div>
+      <img src="assets/images/school.jpg" alt="photo d'ecole">
+      <h2>Licence MSW CDA</h2>
+      <p>Actuellement en formation de Concepteur Développeur d'Applications.</p>
+      <a class="more" mat-button (click)="selectCardOne()">En savoir plus</a>
+    </div>
+    <div>
+      <img src="assets/images/stage.jpg" alt="photo de stage">
+      <h2>Stages professionnels</h2>
+      <p>Les stages en entreprise sont essentiels à l'immersion professionnelle.</p>
+      <a class="more" mat-button (click)="selectCardTwo()">En savoir plus</a>
+    </div>
+    <div>
+      <img src="assets/images/entreprise.jpg" alt="photo d'entreprise">
+      <h2>Expériences en alternance</h2>
+      <p>L'alternance est la concrétisation de l'apprentissage en formation.</p>
+      <a class="more" mat-button (click)="selectCardThree()">En savoir plus</a>
+    </div>
+  </div>
+  <div id="sections">
+    <ng-container *ngIf="cardOne">
+      <hr class="divider">
+      <h1>La licence MSW Concepteur Développeur d'Applications</h1>
+      <hr class="dividerT2">
+      <h2>Objectifs</h2>
+      <p><b>L'informatique mobile : des compétences professionnelles spécifiques.</b></p>
+      <div id="formation">
+        <ul>
+          <li>Programmer en utilisant les technologies professionnelles actuelles.</li>
+          <li>Développer des applications mobiles.</li>
+          <li>Développer des sites web avec les dernières technologies.</li>
+          <li>Utiliser les Frameworks répandus dans le monde professionnel.</li>
+          <li>Implémenter des services de haut niveau.</li>
+          <li>Communiquer.</li>
+          <li>Créer une entreprise.</li>
+          <li>Gérer les clés de la réussite de son entreprise.</li>
+        </ul>
+        <img src="assets/images/developer.jpg" alt="photo développeur">
+      </div>
+      <div id="contenu">
+        <h2>Contenu de la formation</h2>
+        <table>
+          <tr>
+            <th>Matières</th>
+            <th>Nombre d'heures</th>
+          </tr>
+          <tr>
+            <td>Gestion de projet</td>
+            <td>8h</td>
+          </tr>
+          <tr>
+            <td>Maquettage</td>
+            <td>12h</td>
+          </tr>
+          <tr>
+            <td>Communication</td>
+            <td>10h</td>
+          </tr>
+          <tr>
+            <td>Entreprenariat</td>
+            <td>6h</td>
+          </tr>
+          <tr>
+            <td>Marketing</td>
+            <td>8h</td>
+          </tr>
+          <tr>
+            <td>Animation d'équipe</td>
+            <td>18h</td>
+          </tr>
+          <tr>
+            <td>SGBD</td>
+            <td>20h</td>
+          </tr>
+          <tr>
+            <td>Développement java</td>
+            <td>32h</td>
+          </tr>
+          <tr>
+            <td>Développement Web</td>
+            <td>32h</td>
+          </tr>
+          <tr>
+            <td>Développement Android</td>
+            <td>24h</td>
+          </tr>
+          <tr>
+            <td>Symfony</td>
+            <td>32h</td>
+          </tr>
+          <tr>
+            <td>Réseaux sociaux</td>
+            <td>8h</td>
+          </tr>
+          <tr>
+            <td>Projet personnalisé</td>
+            <td>150h</td>
+          </tr>
+          <tr>
+            <td>Travail de synthèse et de veille technologique</td>
+            <td>90h</td>
+          </tr>
+          <tr>
+            <td>Apprentissage</td>
+            <td>490h</td>
+          </tr>
+        </table>
+      </div>
+      <div id="complement">
+        <div>
+          <h1>Débouchés</h1>
+            <p>Concepteur/développeur web</p>
+            <p>Concepteur/développeur mobile</p>
+            <p>Développeur d’application</p>
+            <p>Chef de projet</p>
+            <p>Lead dev</p>
+        </div>
+        <div>
+          <h1>Passerelles et suite de parcours</h1>
+            <p>Masters dans le domaine du développement, du développement Web, du développement mobile, des bases de données</p>
+            <p>Ecoles d’Ingénieurs</p>
+        </div>
+        <div>
+          <img src="assets/images/gouv.png" width="40%" alt="Logo du gouvernement">
+          <p>La formation est reconnue par l'Etat et est inscrite au RNCP.</p>
+        </div>
+      </div>
+      <div id="old">
+        <h2>Mes précédentes formations</h2>
+          <sup>2018 à 2020</sup>
+          <h3>BTS Services Informatique aux Organisations, option Solutions Logicielles et Applications Métiers</h3>
+          <p><mat-icon>location_on</mat-icon> La Chartreuse Paradis, Brives-Charensac, Auvergne-Rhône-Alpes</p>
+          <p>Suivi du cycle de vie des applications, de l’analyse des besoins techniques à la maintenance des programmes.</p>
+        <hr class="dividerT2">
+          <sup>2017 à 2018</sup>
+          <h3>BAC Sciences et Technologies du Management et de la Gestion, option Système d’Information de Gestion</h3>
+          <p><mat-icon>location_on</mat-icon> La Chartreuse Paradis, Brives-Charensac, Auvergne-Rhône-Alpes</p>
+          <p>Analyse des manipulations à informatiser, apprentissage des langages informatiques et étude des technologies associées.</p>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="cardTwo">
+      <hr class="divider">
+      <h1>Mes deux stages en entreprise</h1>
+      <p>Lors de mes deux stages en entreprise, j'ai eu l'opportunité de participer à deux projets.</p>
+      <div id="stages">
+        <div>
+          <p>Mai 2019 à Juin 2019</p>
+          <hr class="dividerT2">
+          <p class="hauteur">
+            <img src="assets/images/progest.png" alt="logo progest43">
+          </p>
+          <hr class="dividerT2">
+          <h3><mat-icon>location_on</mat-icon>Blavozy, Auvergne-Rhône-Alpes</h3>
+          <p>
+            Migration de la partie comptabilité Access en version Web de la Fédération Française de Triathlon.
+            Maquettage des pages, suivi de la charte graphique du Site Officiel, mise en place du système de sécurité.
+            Connexion avec la base de données par Microsoft SQLServer.
+          </p>
+        </div>
+        <div>
+          <p>Janvier 2020 à Février 2020</p>
+          <hr class="dividerT2">
+          <p class="hauteur">
+            <img src="assets/images/univhair.png" alt="carte de visite univ'hair coiffure">
+          </p>
+          <hr class="dividerT2">
+          <h3><mat-icon>location_on</mat-icon>Lantriac, Auvergne-Rhône-Alpes</h3>
+          <p>
+            Création d'un site professionnel pour le salon de coiffure Univ'hair. Maquettage du site, création de la
+            charte graphique, installation du système de sécurité avec base de données, référencement, création avec
+            Symfony.
+          </p>
+        </div>
+      </div>
+      <a class="more" mat-button [routerLink]="['/projets']">Voir mes projets</a>
+    </ng-container>
+    <ng-container *ngIf="cardThree">
+      <hr class="divider">
+      <div id="alternance">
+        <h1>Bénéfices de l'apprentissage</h1>
+        <p>
+          L’un des avantages de l’apprentissage est que cette solution me permet d'acquérir une expérience sur le terrain tout
+          en continuant à me former. L'alternance m'aide à mettre continuellement en pratique mes connaissances théoriques acquises.
+          En effet, grâce aux missions qui me sont confiées dans l’entreprise, je peux immédiatement appliquer ce que j'ai appris dans
+          mon centre de formation. Je peux aussi acquérir des connaissances complémentaires aux côtés de mon équipe de travail.
+        </p>
+        <h2>Grâce à KNS...</h2>
+        <p>
+          J'ai l'opportunité de bénéficier d'un contrat d'alternance et de pouvoir mettre en application sur le terrain
+          toutes mes connaissances théoriques.
+        </p>
+        <div>
+          <img src="assets/images/logo_kns.png" alt="logo kns">
+        </div>
+        <a class="kns" mat-button href="https://www.kns.fr" target="_blank">Consulter KNS.fr</a>
+        <h2>Projet professionnel</h2>
+        <p>Lors de mon alternance, j'ai eu l'opportunité de participer à un projet d'envergure nationale.</p>
+        <div id="bigfiit">
+          <p>Novembre 2020 à aujourd'hui</p>
+          <hr class="dividerT2">
+          <p class="hauteur">
+            <img src="assets/images/bigfiit_name.png" alt="logo big fiit">
+          </p>
+          <hr class="dividerT2">
+          <h3><mat-icon>location_on</mat-icon>Lyon, Auvergne-Rhône-Alpes</h3>
+          <p>
+            Développement sur la plateforme de sport en ligne Big Fiit. Maquettage des pages, rédaction du cahier des
+            charges, création avec Angular.
+          </p>
+        </div>
+        <a class="more" mat-button [routerLink]="['/bigfiit']">Voir le projet</a>
+      </div>
+    </ng-container>
+  </div>
+</div>
+<app-footer></app-footer>

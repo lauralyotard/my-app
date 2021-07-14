@@ -1,15 +1,15 @@
 /*---------------------------------CGU-------------------------------------*/
 #cgu {
-  width: 80%;
+  width: 60%;
   margin: auto;
   text-align: center;
   background: #FFFFFF;
   padding: 30px;
-  color: #333333;
+  color: #757575;
 }
 
 #cgu #short {
-  color: #56718e;
+  color: #ed7990;
 }
 
 /*---------------------------------CONFIDENTIALITE>CONTENU-------------------------------------*/
@@ -19,7 +19,7 @@
 }
 
 #contenu h2{
-  color: #56718e;
+  color: #ed7990;
 }
 
 /*---------------------------------BUTTONS-------------------------------------*/
@@ -27,6 +27,6 @@
 .back {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #333333;
-  border: 1px solid #333333;
+  color: #757575;
+  border: 1px solid #757575;
 }

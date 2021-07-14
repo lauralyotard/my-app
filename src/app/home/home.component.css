@@ -1,20 +1,20 @@
 /*---------------------------------HOME-------------------------------------*/
 #home {
-  width: 80%;
+  width: 60%;
   margin: auto;
   text-align: center;
-  background: #ffffff;
+  background: #FFFFFF;
   padding: 30px;
 }
 
 #home h1 {
-  color: #333333;
+  color: #757575;
   font-size: 40px;
   font-variant: petite-caps;
 }
 
 #home h2{
-  color: #56718e;
+  color: #ed7990;
 }
 
 #home img {
@@ -25,43 +25,32 @@
 
 #menu button {
   margin: 5px;
-  color: #333333;
-  border: 1px solid #333333;
+  color: #757575;
+  border: 1px solid #757575;
 }
 
 #menu button:hover {
   margin: 5px;
-  color: #56718e;
-  border: 1px solid #56718e;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 #menu a {
   margin: 5px;
-  color: #333333;
-  border: 1px solid #333333;
+  color: #757575;
+  border: 1px solid #757575;
 }
 
 #menu a:hover {
   margin: 5px;
-  color: #56718e;
-  border: 1px solid #56718e;
-}
-
-.more {
-  margin-top: 40px;
-  color: #333333;
-  border: 1px solid #333333;
-}
-
-.more:hover {
-  color: #56718e;
-  border: 1px solid #56718e;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 /*---------------------------------HOME>PROFILE-------------------------------------*/
 
 #profile h2{
-  color: #56718e;
+  color: #ed7990;
 }
 
 @media (min-width: 801px) {
@@ -95,17 +84,12 @@
   width: 50%!important;
 }
 
-.info a {
-  text-decoration: none;
-  color: #56718e;
-}
+/*---------------------------------PARCOURS-------------------------------------*/
 
-/*---------------------------------INFORMATIONS-------------------------------------*/
-
-#informations p {
+#parcours p {
   margin: auto;
   width: 80%;
-  text-align: center;
+  text-align: justify;
 }
 
 /*---------------------------------DIVIDERS-------------------------------------*/
@@ -123,3 +107,23 @@
   margin-bottom: 20px;
   width: 20%;
 }
+
+/*---------------------------------BUTTONS-------------------------------------*/
+
+.back {
+  margin-top: 20px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more {
+  margin-top: 40px;
+  color: #757575;
+  border: 1px solid #757575;
+}
+
+.more:hover {
+  color: #ed7990;
+  border: 1px solid #ed7990;
+}
+

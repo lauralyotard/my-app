@@ -1,44 +1,90 @@
 <div id="home">
-  <h1>Univ'hair coiffure</h1>
-  <h2>Lantriac</h2>
-  <p>Bienvenue sur le site de Univ'hair Coiffure à Lantriac.</p>
-  <div class="splide">
-    <div class="splide__track">
-      <div class="splide__list">
-        <div class="splide__slide"><img src="assets/images/hairdresser1.png" alt="hairdresser"></div>
-        <div class="splide__slide"><img src="assets/images/hairdresser2.png" alt="hairdresser"></div>
-        <div class="splide__slide"><img src="assets/images/hairdresser3.png" alt="hairdresser"></div>
-        <div class="splide__slide"><img src="assets/images/hairdresser4.png" alt="hairdresser"></div>
-        <div class="splide__slide"><img src="assets/images/hairdresser5.png" alt="hairdresser"></div>
-        <div class="splide__slide"><img src="assets/images/hairdresser6.png" alt="hairdresser"></div>
-      </div>
-    </div>
-
-    <div class="splide__progress">
-      <div class="splide__progress__bar">
-      </div>
-    </div>
-  </div>
+  <h1>Bienvenue sur mon Portfolio !</h1>
+  <h2>Laura Lyotard - Développeur Web</h2>
+  <p>Autodidacte et disciplinée, je suis une jeune passionnée de développement web qui souhaite gagner en expérience et travailler dans un domaine qui me plaît.</p>
+  <img src="assets/images/accueil.jpg" alt="photo accueil">
   <div id="menu">
-    <a mat-fab href="#home">Accueil</a>
-    <a mat-fab href="#informations">Infos</a>
-    <a mat-fab [routerLink]="['/horaires']">Horaires</a>
-    <a mat-fab [routerLink]="['/photos']">Galerie</a>
-    <a mat-fab [routerLink]="['/contact']">Contact</a>
+    <a mat-button href="#profile">Accueil</a>
+    <a mat-button href="#parcours">Parcours</a>
+    <a mat-button [routerLink]="['/experiences']">Expériences</a>
+    <a mat-button [routerLink]="['/projets']">Projets</a>
+    <a mat-button [routerLink]="['/cv']">Curriculum Vitae</a>
+    <a mat-button [routerLink]="['/contact']">Contact</a>
   </div>
   <hr class="divider">
-  <div id="informations">
-    <h2>Les informations rapides</h2>
+  <div id="profile">
+    <h2>Qui suis-je ?</h2>
     <p>
-      Numéro de téléphone :
+      Si vous êtes ici, ce n'est sans doute pas par hasard. Vous souhaitez en savoir plus sur mon profil ?
     </p>
-    <p class="info"><a href="tel:+33471055020">04.71.05.50.20</a></p>
+    <p>
+      <b>Vous êtes au bon endroit !</b>
+    </p>
+    <p>
+      En quelques mots, je suis une développeuse web, principalement Front-End.
+    </p>
+    <div class="container">
+      <div>
+        <img src="assets/images/multitaches.gif" alt="icone multi taches">
+        <h2>Multi-tâches</h2>
+        <p>Polyvalente, curieuse et autonome.</p>
+      </div>
+      <div>
+        <img src="assets/images/organisee.gif" alt="icone organisée">
+        <h2>Organisée</h2>
+        <p>Créer et gérer un calendrier.</p>
+      </div>
+      <div>
+        <img src="assets/images/rigoureuse.gif" alt="icone rigoureuse">
+        <h2>Rigoureuse</h2>
+        <p>Parce que chaque détail compte.</p>
+      </div>
+      <div>
+        <img src="assets/images/sociable.gif" alt="icone sociable">
+        <h2>Sociable</h2>
+        <p>Intégrer une équipe dans la convivialité.</p>
+      </div>
+    </div>
+    <a class="back" mat-button href="#home"><mat-icon>arrow_upward</mat-icon></a>
+  </div>
+  <hr class="divider">
+  <div id="parcours">
+    <h2>Mon parcours</h2>
+    <p>
+      Je suis une amoureuse de la programmation digitale de 20 ans, en licence MSW CDA (Mobile Smartphone Web, Concepteur Développeur d'Applications),
+      au Lycée La Chartreuse Paradis. Tout d'abord, je souhaite accéder à la formation Mastère Développeur Web/Tech Lead de Digital Campus
+      pour aller jusqu'au bout de mes objectifs. Je suis une passionnée d'informatique, c'était donc une évidence que mes
+      études seraient dans ce domaine.
+    </p>
     <hr class="dividerT2">
     <p>
-      Adresse :
+      Après mon BTS SIO (Système d’Information de Gestion), je voulais partir en prépa-mastère à Lyon dans l'école Digital Campus, en alternance.
+      J'ai contacté de nombreuses entreprises mais cela n'a pas pu se concrétiser compte tenu de la situation
+      sanitaire instable. J'ai donc poursuivi avec mon école actuelle en licence de développement Web, disponible en
+      alternance et en cursus initial. En 2020, environ deux mois après le début de ma formation, une des
+      entreprises que j'avais contactées auparavant est revenue vers moi pour me suivre dans mon projet de licence en alternance.
+      C'est le début d'une nouvelle aventure.
     </p>
-    <p class="info"><a href="https://www.google.fr/maps/place/Univ'Hair/@45.0000897,4.0025686,817m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47f5f4068235eae9:0xb3fbfea9ffb9bd4f!8m2!3d45.0001114!4d4.0047791">Rue du Lavoir, 43260 Lantriac</a></p>
+    <hr class="dividerT2">
+    <p>
+      Je découvre de nombreuses choses à leur côté. J'ai pu travailler sur un projet concret, suivre la méthode Agile
+      pour la réalisation de ce dernier. Avancer avec des contraintes et proposer une solution adaptée pour chaque
+      situation. La pratique constante d'une pluralité de langages informatiques est un bénéfice pour la compréhension et
+      l'interprétation du code de divers travaux.
+    </p>
+    <p>
+      J'ai un emploi qui me plaît, et dans lequel j'ai le sentiment que c'est un plaisir plus qu'un travail.
+      Je suis avec une excellente équipe de développement et une entreprise qui me donne l'opportunité d'acquérir de
+      l'expérience professionnelle et de contribuer à un projet significatif et motivant.
+    </p>
+    <hr class="dividerT2">
+    <p>
+      Aujourd'hui, j'ai la confirmation que mon choix d'orientation professionnelle correspond à ce qui me plaît, et
+      je suis confiante pour avancer dans ma vie et ma future carrière. J'ai acquis une meilleure compréhension
+      et approche d'un projet d'un point de vue professionnel. J'ai la volonté d'aller en Master en alternance, et
+      je suis convaincue que j'ai les ressources et les capacités pour y parvenir.
+    </p>
   </div>
-  <a class="more" mat-button [routerLink]="['/horaires']">Voir les horaires</a>
+  <a class="more" mat-button [routerLink]="['/experiences']">En savoir plus</a>
 </div>
 <app-footer></app-footer>

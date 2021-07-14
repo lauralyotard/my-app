@@ -1,6 +1,6 @@
 /*---------------------------------EXPERIENCES-------------------------------------*/
 #experiences {
-  width: 80%;
+  width: 60%;
   margin: auto;
   text-align: center;
   background: #FFFFFF;
@@ -9,7 +9,7 @@
 
 #experiences #header {
   font-size: 25px;
-  color: #333333;
+  color: #757575;
 }
 
 /*---------------------------------EXPERIENCES>CONTAINER-------------------------------------*/
@@ -49,11 +49,11 @@
 }
 
 .container h2 {
-  color: #56718e;
+  color: #ed7990;
 }
 
 .container h3 {
-  color: #56718e;
+  color: #ed7990;
 }
 
 .container div img{
@@ -70,40 +70,75 @@
 }
 
  #sections h1 {
-   color: #56718e;
+   color: #ed7990;
  }
 
  #sections h2 {
-   color: #56718e;
+   color: #ed7990;
  }
 
+/*---------------------------------SECTIONS>FORMATION-------------------------------------*/
+
+#formation {
+  text-align: left;
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
+@media (min-width: 801px) {
+  #formation {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 800px) {
+  #formation {
+    flex-direction: column;
+  }
+}
+
+#formation img {
+  margin: auto;
+  width: 40%!important;
+}
+
+#formation ul {
+  align-self: center;
+}
+
 /*---------------------------------CONTENU-------------------------------------*/
-table {
+#contenu {
+  margin-top: 10px;
+}
+
+#contenu table {
   width: 60%;
   margin: auto;
   text-align: left;
-  border: solid 1px #56718e;
+  border: solid 1px #ed7990;
   border-collapse: collapse;
 }
 
-table tr, th, td {
-  font-size: 16px;
-  padding: 20px;
-  border: solid 1px #56718e;
+#contenu table tr, th, td {
+  padding: 5px;
+  border: solid 1px #ed7990;
 }
 
-table th {
- background: #333333;
+#contenu table th {
+ background: #757575;
   color: #FFFFFF;
 }
 
-table tr:hover {
-  background: #56718e;
+
+#contenu table tr:hover {
+  background: #ed7990;
 }
 
-table tr:nth-child(even) {
-  background: #bbcbdc;
+#contenu table tr:nth-child(even) {
+  background: #f6e5e8;
 }
+
 /*---------------------------------COMPLEMENT-------------------------------------*/
 
 #complement {
@@ -147,7 +182,7 @@ table tr:nth-child(even) {
 }
 
 #old sup {
-  background: #adbccd;
+  background: #F2BDC7;
   border-radius: 10px;
   padding: 5px;
 }
@@ -157,7 +192,7 @@ table tr:nth-child(even) {
 }
 
 #old p {
-  color: #333333;
+  color: #757575;
 }
 
 #old {
@@ -175,7 +210,7 @@ table tr:nth-child(even) {
   margin: 20px;
   width: 80%;
   border-radius: 10px;
-  background: #adbccd;
+  background: #F2BDC7;
   color: #333333;
   box-shadow: #333333 2px 6px 10px;
 }
@@ -185,7 +220,7 @@ table tr:nth-child(even) {
 }
 
 #stages div h3{
-  color: #333333;
+  color: #757575;
   margin: 15px!important;
 }
 
@@ -231,7 +266,7 @@ table tr:nth-child(even) {
   margin: auto;
   width: 60%;
   border-radius: 10px;
-  background: #adbccd;
+  background: #F2BDC7;
   color: #333333;
   box-shadow: #333333 2px 6px 10px;
 }
@@ -241,7 +276,7 @@ table tr:nth-child(even) {
 }
 
 #alternance #bigfiit h3{
-  color: #333333;
+  color: #757575;
   margin: 15px!important;
 }
 
@@ -250,30 +285,30 @@ table tr:nth-child(even) {
 .back {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #333333;
-  border: 1px solid #333333;
+  color: #757575;
+  border: 1px solid #757575;
 }
 
 .more {
   margin-top: 40px;
-  color: #333333;
-  border: 1px solid #333333;
+  color: #757575;
+  border: 1px solid #757575;
 }
 
 .more:hover {
-  color: #56718e;
-  border: 1px solid #56718e;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 .kns {
   margin-bottom: 40px;
-  color: #333333;
-  border: 1px solid #333333;
+  color: #757575;
+  border: 1px solid #757575;
 }
 
 .kns:hover {
-  color: #56718e;
-  border: 1px solid #56718e;
+  color: #ed7990;
+  border: 1px solid #ed7990;
 }
 
 /*---------------------------------DIVIDERS-------------------------------------*/
